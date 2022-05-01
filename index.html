@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css">
     <title>Figuras Geometricas</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <img src="./Source/Logo.png" alt="Logo">
+            <h1>Figuras Geometricas</h1>
+            <p>Es el Primer Taller del Curso Practio de JavaScript</p>
+        </nav>
+    </header>
     <main>
-        <h1>Figuras Geometricas</h1>
+        <section>
+            <h2>Calcular el Area y perimetro de un cuadrado</h2>
+            <form action="">
+                <label for="InputCuadrado">
+                    Escribe Cuanto mide el lado del cuadrado:
+                </label>
+                <input id="InputCuadradotype" type="number"/>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perimetro
+                </button>
+
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el area
+                </button>
+            </form>
+        </section>
     </main>
 
     <script src="./figuras.js"></script>
