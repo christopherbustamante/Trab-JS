@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="header_list">
             <img src="./Source/Logo.png" alt="Logo">
             <h1>
                 Figuras geométricas
@@ -20,8 +20,46 @@
               <p>Este es el primer taller del curso práctico de JavaScript</p>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="box_list">
+
+      <!-- Cuadrado -->
+        <section class="box_style">
+            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <form>
+              <label for="InputCuadrado">
+                Escribe cuánto mide cada lado de tu cuadrado:
+              </label>
+              <input id="InputCuadrado" type="number" />
+              <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perímetro
+              </button>
+              <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+              </button>
+            </form>
+          </section>
+
+          <!-- Triangulo -->
+
+          <section class="box_style">
+            <h2>Calcula el área y perímetro de un Triangulo</h2>
+            <form>
+              <label for="InputTriangulo">
+                Escribe cuánto mide los dos lados del Triangulo y su Base:
+              </label>
+              <input id="InputTriangulo" type="number" />
+              <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular el perímetro
+              </button>
+              <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular el área
+              </button>
+            </form>
+          </section>
+
+          <!-- Circulo -->
+
+          <section class="box_style">
             <h2>Calcula el área y perímetro de un cuadrado</h2>
             <form>
               <label for="InputCuadrado">
