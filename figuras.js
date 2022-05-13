@@ -33,9 +33,10 @@ console.group("Triángulos");
 // const alturaTriangulo = 5.5;
 // console.log("La altura del triángulo es de: " + alturaTriangulo + "cm");
 
-function perimetroTriangulo(lado1, lado2, base) {
-  return lado1 + lado2 + base;
+function perimetroTriangulo(ladoTriangulo, baseTriangulo) {
+  return ladoTriangulo + baseTriangulo;
 }
+
 // console.log("El perímetro del triángulo es: " + perimetroTriangulo + "cm");
 
 function areaTriangulo(base, altura) {

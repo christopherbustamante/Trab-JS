@@ -42,6 +42,7 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .box_style {
@@ -60,4 +61,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (min-width: 800px) {
+
+    .box_list{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    .box_style {
+        width: 30%;
+        order: 1;
+      }
+
+    
+
 }
