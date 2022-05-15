@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --pink-primary: #EC255A;
+    --violet-primary: #161853;
+    --violet-secondary: #292C6D;
+    --very-light-pink: #FAEDF0;
+    --text-secondary-color: #EEEEEE;
+    --text-input-field: #F7F7F7;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    font-size: 62.5%;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.head{
+    background-color: var(--white);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h2 {
+    flex-direction: column;
+    display: flex;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 4%;
+    border-color: var(--violet-primary);
+    border-radius: 4px;
+}
+
+.element-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.element-primary {
+    display: flex;
+    flex-direction: column;
+}
+
+.element-primary label {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.element-primary input {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--text-input-field);
+    margin-bottom: 4%;
+
+}
+
+.element-primary button {
+    background-color: var(--pink-primary);
+    border-radius: 4px;
+    color: var(--white);
+    margin-bottom: 4%;
+    border-style: none;
+    padding: 2%;
+}
+
+.p {
+    font-size: var(--md);
+    color: var(--black);
+}
